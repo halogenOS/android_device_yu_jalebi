@@ -67,6 +67,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.less-secure=true
 
 # Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.midi=90BA \
     ro.usb.id.midi_adb=90BB \
