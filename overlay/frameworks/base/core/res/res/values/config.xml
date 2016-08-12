@@ -168,7 +168,7 @@
     <!--integer name="config_extraFreeKbytesAbsolute">61440</integer-->
 
     <!--  Whether Multiuser UI should be shown -->
-    <bool name="config_enableMultiUserUI">false</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
 
     <bool name="config_showNavigationBar">true</bool>
     <!-- Default LED on time for notification LED in milliseconds. -->
