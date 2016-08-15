@@ -41,11 +41,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Dex
-ifeq ($(HOST_OS),linux)
-  ifeq ($(TARGET_BUILD_VARIANT),user)
-    WITH_DEXPREOPT_COMP ?= false
-  endif
-endif
+WITH_DEXPREOPT := true
 
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
