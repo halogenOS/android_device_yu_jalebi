@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     Snap
 
+# Browser
+PRODUCT_PACKAGES += \
+    Browser
+
 # Charger
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.midi=90BA \
