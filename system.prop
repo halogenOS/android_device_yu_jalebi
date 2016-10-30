@@ -17,13 +17,31 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # HWUI
 ro.hwui.text_large_cache_height=2048
 
+# IMS
+net.lte.volte_call_capable=true
+persist.ims.enableADBLogs=1
+persist.ims.enableDebugLogs=1
+persist.radio.calls.on.ims=true
+persist.radio.csvt.enabled=false
+persist.radio.jbims=1
+persist.radio.ROTATION_ENABLE=1
+persist.radio.VT_ENABLE=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.VT_USE_MDM_TIME=0
+persist.dbg.volte_avail_ovr=1
+persist.volte_enalbed_by_hw=1
+
 # Radio
+DEVICE_PROVISIONED=1
 persist.radio.multisim.config=dsds
+persist.radio.rat_on=combine
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.ecclist1=000,08,100,101,102,110,112,118,119,120,122,911,999
 ro.config.always_show_roaming=true
-ro.telephony.default_network=9,1
+ril.subscription.types=NV,RUIM
+ro.telephony.default_network=9,9
+telephony.lteOnCdmaDevice=1
 
 # Storage
 ro.sdcardfs.enable=true
