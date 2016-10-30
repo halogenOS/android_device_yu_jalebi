@@ -89,7 +89,10 @@ PRODUCT_COPY_FILES += \
 # IMS
 PRODUCT_PACKAGES += \
     IMSEnabler \
-    init.qti.ims.sh
+    init.qti.ims.sh \
+    imscmlibrary \
+    imssettings \
+    ims
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
