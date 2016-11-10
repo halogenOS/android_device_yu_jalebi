@@ -33,7 +33,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=128m \
     dalvik.vm.heapminfree=6m \
@@ -57,10 +56,6 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
     Snap
-
-# Browser
-PRODUCT_PACKAGES += \
-    Browser
 
 # Charger
 ADDITIONAL_DEFAULT_PROPERTIES += \
