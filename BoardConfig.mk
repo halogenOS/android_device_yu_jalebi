@@ -81,7 +81,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/yu/jalebi/sepolicy
+    device/yu/jalebi/sepolicy \
+    device/yu/jalebi/charger/sepolicy
 
 # Telephony
 PRODUCT_PACKAGES += \
