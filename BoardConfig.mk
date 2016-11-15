@@ -79,6 +79,13 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_SEPOLICY_DIRS += \
     device/yu/jalebi/sepolicy
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Wifi
 TARGET_PROVIDES_WCNSS_QMI := true
 
