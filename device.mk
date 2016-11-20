@@ -55,12 +55,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
-    Camera2
+    Snap
 
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    camera2.portability.force_api=1 \
-#    media.stagefright.legacyencoder=true \
-#    media.stagefright.less-secure=true
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera2.portability.force_api=1 \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
 
 # Charger
 ADDITIONAL_DEFAULT_PROPERTIES += \
