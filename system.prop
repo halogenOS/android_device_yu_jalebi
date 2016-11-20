@@ -5,7 +5,7 @@ persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=280
 ro.qualcomm.cabl=0
 ro.qualcomm.svi=1
 config.svi.xml=1
