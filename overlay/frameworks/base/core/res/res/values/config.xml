@@ -250,4 +250,8 @@
          state changes. Voice radio tech change will always trigger an update of
          phone object irrespective of this config -->
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+
+    <!-- Config determines whether the device should show a navigation bar as default or not -->
+    <bool name="config_showNavigationBar">true</bool>
+
 </resources>
