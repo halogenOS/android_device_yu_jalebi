@@ -81,8 +81,8 @@ PRODUCT_PACKAGES += \
     svi_config.xml
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    YuDoze
+#PRODUCT_PACKAGES += \
+#    YuDoze
 
 # GPS
 PRODUCT_PACKAGES += \
