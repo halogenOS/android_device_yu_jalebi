@@ -146,5 +146,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libwcnss_qmi
 
+#Debuggable
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
+
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
