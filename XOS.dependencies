@@ -3,5 +3,10 @@
     "repository": "CyanogenMod/android_packages_apps_Snap",
     "target_path": "ppackages/apps/Snap",
     "branch": "cm-14.1"
+  },
+  {
+    "repository": "SlimROMs/packages_apps_SlimFileManager",
+    "target_path": "ppackages/apps/SlimFileManager",
+    "branch": "mm6.0"
   }
 ]
