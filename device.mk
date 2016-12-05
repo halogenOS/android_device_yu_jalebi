@@ -157,9 +157,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
     ro.debuggable=1
 
-# Some packages, cuz users need to heard too
-PRODUCT_PACKAGES += \
-    SlimFileManager
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
