@@ -45,12 +45,8 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 # Charger
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(PLATFORM_PATH)/images
 
-# Clang
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Dex
-WITH_DEXPREOPT := false
+WITH_DEXPREOPT := true
 
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
