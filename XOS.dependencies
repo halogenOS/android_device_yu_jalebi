@@ -1,12 +1,17 @@
 [
   {
-    "repository": "CyanogenMod/android_packages_apps_Snap",
-    "target_path": "ppackages/apps/Snap",
-    "branch": "cm-14.1"
+    "repository": "halogenOS/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch":       "XOS-7.0"
   },
   {
-    "repository": "SlimROMs/packages_apps_SlimFileManager",
-    "target_path": "ppackages/apps/SlimFileManager",
-    "branch": "mm6.0"
+    "repository": "halogenOS/android_vendor_yu_jalebi",
+    "target_path": "vendor/yu/jalebi",
+    "branch":       "XOS-7.0"
+  },
+  {
+    "repository": "halogenOS/android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "branch":       "XOS-7.0"
   }
 ]
