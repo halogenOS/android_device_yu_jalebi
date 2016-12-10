@@ -84,10 +84,6 @@ PRODUCT_PACKAGES += \
     pp_calib_data_nt35521_dijing_4p7inch_hd_video_panel.xml \
     svi_config.xml
 
-# Doze mode
-#PRODUCT_PACKAGES += \
-#    YuDoze
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8916
@@ -128,10 +124,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.target.rc
 
-# Recovery
-#PRODUCT_EXTRA_RECOVERY_KEYS += \
-#    $(LOCAL_PATH)/jalebi-releasekey
-
 # Sensor HAL
 PRODUCT_PACKAGES += \
     sensors.msm8916
@@ -156,7 +148,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     ro.debuggable=1
-
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
