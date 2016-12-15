@@ -78,6 +78,12 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.usb.id.ums_adb=3010 \
     ro.usb.vid=2a96
 
+#Dex2oat Limits
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-threads=6 \
+    dalvik.vm.image-dex2oat-threads=8
+
 # Display
 PRODUCT_PACKAGES += \
     libjni_livedisplay \
