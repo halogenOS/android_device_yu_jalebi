@@ -13,10 +13,5 @@
     "repository": "halogenOS/android_kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916",
     "branch":       "XOS-7.0"
-  },
-  {
-    "repository": "CyanogenMod/android_packages_apps_Snap",
-    "target_path": "packages/apps/Snap",
-    "branch":       "cm-14.1"
   }
 ]
