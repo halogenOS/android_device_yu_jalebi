@@ -58,3 +58,6 @@ sys.audio.init=false
 
 # Disable CPP duplication mode
 persist.camera.cpp.duplication=false
+
+# Tethering
+net.tethering.noprovisioning=true
