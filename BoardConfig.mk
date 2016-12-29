@@ -55,9 +55,6 @@ WITH_DEXPREOPT := false
 USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
-# IMS
-TARGET_USES_IMS := true
-
 #Libc
 TARGET_NEEDS_GCC_LIBC := true
 

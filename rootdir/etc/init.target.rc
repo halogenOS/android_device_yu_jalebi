@@ -70,9 +70,6 @@ on post-fs
     swapon_all /fstab.qcom
     write /proc/sys/vm/page-cluster 0
 
-on init
-    export LD_SHIM_LIBS /system/vendor/lib/lib-imsdpl.so|libshim_boringssl.so
-
 on charger
     wait /dev/block/bootdevice/by-name/system
     mount ext4 /dev/block/bootdevice/by-name/system /system ro barrier=1
@@ -88,35 +85,3 @@ service vm_bms /system/bin/vm_bms
     class core
     user root
     group root
-
-service imsqmidaemon /system/bin/imsqmidaemon
-    class main
-    user system
-    socket ims_qmid stream 0660 system radio
-    group radio log qcom_diag
-
-service imsdatadaemon /system/bin/imsdatadaemon
-    class main
-    user system
-    socket ims_datad stream 0660 system radio
-    group system wifi radio inet log qcom_diag
-    oneshot
-
-service ims_rtp_daemon /system/bin/ims_rtp_daemon
-   class main
-   user system
-   socket ims_rtpd stream 0660 system radio
-   group radio diag qcom_diag log inet
-   oneshot
-
-service imscmservice /system/bin/imscmservice
-   class main
-   user system
-   group radio diag qcom_diag log
-   oneshot
-
-service qti_ims /system/bin/sh /init.qti.ims.sh
-    class core
-    user radio
-    group radio
-    oneshot
