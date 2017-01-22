@@ -99,5 +99,8 @@ PRODUCT_BOOT_JARS += \
 # Wifi
 TARGET_PROVIDES_WCNSS_QMI := true
 
+# VoLTE
+TARGET_WANTS_VOLTE := true
+
 # inherit from the proprietary version
 -include vendor/yu/jalebi/BoardConfigVendor.mk
