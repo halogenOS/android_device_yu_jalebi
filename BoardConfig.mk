@@ -27,6 +27,10 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 TARGET_KERNEL_CONFIG := cyanogenmod_jalebi_defconfig
 TARGET_WANTS_DTIMAGE_BUILT := true
 
+# Bootanimation optimizations
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+
 # Bootchart
 ifeq ($(strip $(INIT_BOOTCHART)),true)
 BOARD_KERNEL_CMDLINE += androidboot.bootchart=120
