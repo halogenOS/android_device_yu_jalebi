@@ -121,7 +121,9 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.target.rc
+    init.target.rc \
+    logger_doggo.sh \
+    cpu_tuner.rc
 
 # Sensor HAL
 PRODUCT_PACKAGES += \

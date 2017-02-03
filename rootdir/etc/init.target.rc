@@ -25,6 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import cpu_tuner.rc
+
 on boot
 
     # Torch
@@ -85,3 +87,9 @@ service vm_bms /system/bin/vm_bms
     class core
     user root
     group root
+
+service logger_doggo /system/bin/sh /system/etc/logger_doggo.sh
+    class late_start
+    user root
+    group root
+    oneshot
