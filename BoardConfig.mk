@@ -93,6 +93,9 @@ BOARD_SEPOLICY_DIRS += \
     device/yu/jalebi/sepolicy \
     device/yu/jalebi/charger/sepolicy
 
+# Sensors
+SENSORS_PREVENT_SIGNIFICANT_MOTION_WAKE := true # fix battery drain
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
