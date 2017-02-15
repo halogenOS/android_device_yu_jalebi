@@ -8,5 +8,10 @@
     "repository":   "android_kernel_cyanogen_msm8916",
     "target_path":  "kernel/cyanogen/msm8916",
     "branch":       "XOS-7.1"
+  },
+  {
+    "repository": "android_vendor_yu_jalebi",
+    "target_path": "vendor/yu",
+    "branch":       "XOS-7.1"
   }
 ]
