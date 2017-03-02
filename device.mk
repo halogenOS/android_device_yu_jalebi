@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.target.rc \
-    logger_doggo.sh \
     cpu_tuner.rc
 
 # Sensor HAL
