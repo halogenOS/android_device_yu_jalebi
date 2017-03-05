@@ -1,17 +1,22 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
+    "repository":  "android_device_cyanogen_msm8916-common",
     "target_path": "device/cyanogen/msm8916-common",
-    "branch":       "XOS-7.1"
+    "branch":      "XOS-7.1"
   },
   {
-    "repository":   "android_kernel_cyanogen_msm8916",
-    "target_path":  "kernel/cyanogen/msm8916",
-    "branch":       "XOS-7.1"
+    "repository":  "android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "branch":      "XOS-7.1"
   },
   {
-    "repository": "android_vendor_yu_jalebi",
+    "repository":  "android_vendor_yu_jalebi",
     "target_path": "vendor/yu/jalebi",
-    "branch":       "XOS-7.1"
+    "branch":      "XOS-7.1"
+  },
+  {
+    "repository":  "android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
+    "branch":      "XOS-7.1"
   }
 ]
