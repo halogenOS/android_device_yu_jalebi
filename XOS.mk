@@ -30,6 +30,6 @@ TARGET_VENDOR_PRODUCT_NAME := YUNIQUE
 TARGET_VENDOR_DEVICE_NAME := YUNIQUE
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=YUNIQUE PRODUCT_NAME=YUNIQUE
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=$(PRODUCT_NAME) \
-    ro.ota.version=$(shell date +%Y%m%d) \
-    ro.ota.manifest=https://raw.githubusercontent.com/halogenOS/android_extras_ota/XOS-7.1/$(PRODUCT_NAME).xml
+    persist.ota.romname=$(PRODUCT_NAME) \
+    persist.ota.version=$(shell date +%Y%m%d) \
+    persist.ota.manifest=https://raw.githubusercontent.com/halogenOS/android_extras_ota/XOS-7.1/$(PRODUCT_NAME).xml
