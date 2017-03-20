@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.target.rc \
-    cpu_tuner.rc
+    init.cpu_tuner.sh
 
 # Sensor HAL
 PRODUCT_PACKAGES += \
