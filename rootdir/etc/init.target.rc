@@ -25,7 +25,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import cpu_tuner.rc
+import init.cpu_tuner.rc
 
 on boot
 
@@ -60,7 +60,6 @@ on boot
 on post-fs
     swapon_all /fstab.qcom
     write /proc/sys/vm/page-cluster 0
-    start cpu_tuner
 
 on charger
     wait /dev/block/bootdevice/by-name/system
@@ -77,9 +76,3 @@ service vm_bms /system/bin/vm_bms
     class core
     user root
     group root
-
-service cpu_tuner /system/bin/sh /init.cpu_tuner.sh
-    class late_start
-    user root
-    group root
-    oneshot
