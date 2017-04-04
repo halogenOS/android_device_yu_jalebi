@@ -1,4 +1,3 @@
-sysctl -w net.ipv4.tcp_congestion_control=westwood
 write /sys/module/lowmemorykiller/parameters/minfree 2048,4096,8192,16384,24576,32768 
 write /sys/block/mmcblk0/queue/read_ahead_kb 4096 
 write /sys/module/msm_performance/parameters/max_cpus 3 
