@@ -121,8 +121,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.target.rc \
-    init.cpu_tuner.rc
+    init.target.rc
 
 # Sensor HAL
 PRODUCT_PACKAGES += \
