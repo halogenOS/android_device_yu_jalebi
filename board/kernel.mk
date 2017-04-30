@@ -9,3 +9,4 @@ ifeq ($(strip $(INIT_BOOTCHART)),true)
 BOARD_KERNEL_CMDLINE += androidboot.bootchart=120
 endif
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=enforcing
