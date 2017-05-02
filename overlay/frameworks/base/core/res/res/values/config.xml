@@ -233,7 +233,7 @@
    </string-array>
 
     <!-- Config determines whether the device should show a navigation bar as default or not -->
-    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_defaultToNavigationBar">true</bool>
 
     <!-- Enable NightLight -->
     <bool name="config_nightDisplayAvailable">true</bool>
