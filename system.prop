@@ -24,7 +24,7 @@ ro.config.always_show_roaming=true
 ro.telephony.default_network=9,9
 
 # Storage
-ro.sdcardfs.enable=true
+ro.sys.sdcardfs=true
 
 # disable camera debug spam
 persist.camera.hal.debug.mask=0
