@@ -40,3 +40,6 @@ net.tethering.noprovisioning=true
 
 # SIM settings
 ro.telephony.sim_unlocked=1
+
+# Recents grid cuz yolo
+ro.recents.grid=true
