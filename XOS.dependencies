@@ -15,10 +15,8 @@
     "branch":      "XOS-7.1"
   },
   {
-    "repository":  "msfjarvis/android_prebuilts_gcc_linux-x86_arm_arm-eabi-6.x",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-6.x",
-    "branch":      "master",
-    "clone-depth": "1",
-    "remote":      "gitlab"
+    "repository":  "android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
+    "branch":      "XOS-7.1"
   }
 ]

@@ -10,6 +10,3 @@ BOARD_KERNEL_CMDLINE += androidboot.bootchart=120
 endif
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=enforcing
-
-# Toolchain
-KERNEL_GCC_VERSION=6.x
