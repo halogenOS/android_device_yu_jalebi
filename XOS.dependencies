@@ -13,10 +13,5 @@
     "repository":  "android_vendor_yu_jalebi",
     "target_path": "vendor/yu/jalebi",
     "branch":      "XOS-7.1"
-  },
-  {
-    "repository":  "android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.8",
-    "branch":      "XOS-7.1"
   }
 ]
