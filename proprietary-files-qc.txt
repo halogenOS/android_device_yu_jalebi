@@ -87,7 +87,6 @@ vendor/lib/libmmcamera_gc2355_blx_ffln_78.so
 vendor/lib/libmmcamera_ov8865_qtech_baly_6c.so
 
 # DRM
-bin/qseecomd
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libQSEEComAPI.so
